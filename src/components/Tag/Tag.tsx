@@ -39,10 +39,10 @@ export const Tag: React.FC<TagPropsType> = ({
                             onClick={() => onTagFilterHandler(tag)}
                         >{tag}</div>
                         <div className={styles.buttonBlock}>
-                            {/*<Button*/}
-                            {/*    clickHandler={deleteTagHandler}*/}
-                            {/*    payload={{tag, id}}*/}
-                            {/*/>*/}
+                            <Button
+                                clickHandler={deleteTagHandler}
+                                payload={{tag, id}}
+                            />
                             {!value && <Button
                                 title={`PUSH TO FILTER BY ${tag}`}
                                 clickHandler={() => onTagFilterHandler(tag)}

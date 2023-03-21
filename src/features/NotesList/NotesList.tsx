@@ -40,7 +40,6 @@ export const NotesList = () => {
         } else {
             const pastState: InitialStateType = JSON.parse(localStorage.getItem("past state") as string);
             const filteredState = pastState.filter(item => item.id !== taskId)
-
             dispatch(deleteAC({id: taskId}))
             localStorage.setItem('past state', JSON.stringify(filteredState))
         }
