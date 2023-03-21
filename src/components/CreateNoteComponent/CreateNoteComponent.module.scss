@@ -1,0 +1,35 @@
+@import "../../components/Button/Button.module";
+.container {
+  display: flex;
+justify-content: center;
+  input[type='text'] {
+    width: 200px;
+    height: 20px;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  .save_btn {
+    margin-top: 5px;
+    background: #7892c2 linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    border-radius: 10px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial sans-serif;
+    font-size: 19px;
+    padding: 10px 135px;
+    text-decoration: none;
+  }
+
+  .save_btn:hover {
+    background: #476e9e linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  }
+
+  .save_btn:active {
+    position: relative;
+    top: 1px;
+  }
+
+}

@@ -1,0 +1,23 @@
+.wrapper {
+.li{
+  width:40vw;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+  .tag {
+    cursor: pointer;
+  }
+  .tag_decoration {
+    color: blue;
+  }
+  .tag:hover {
+    text-shadow: 1px 1px 2px #7892c2;
+  }
+.buttonBlock{
+  width: 35vw;
+  display:flex;
+  margin-bottom: 5px;
+}
+}
+
